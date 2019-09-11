@@ -1,0 +1,48 @@
+html,body{
+	height:100%;
+}
+body{
+	background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(3,151,215,1) 75%, rgba(0,212,255,1) 100%);
+}
+nav{
+	background:rgba(255,255,255,0.5);
+	padding:2em;
+}
+.foto{
+	width:40%;
+}
+.imagen
+{
+	height:auto;
+	max-width:100%;
+}
+.contenido{
+	margin:0 auto;
+	width:80%;
+}
+.menu{
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+}
+.menu li a{
+	font-family:verdana;
+	font-size:150%;
+	text-decoration:none; 
+}
+.menu li a:hover{
+	text-decoration:overline;
+}
+@media screen and (max-width:500px){
+	.menu{
+		flex-direction:column;
+		margin:0;
+		padding:0;
+	}
+	.menu li{
+		border-bottom:solid 0.1em #000;
+		text-align:center;
+	}
+
+}
